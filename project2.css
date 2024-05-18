@@ -1,0 +1,91 @@
+body{
+	font-family: elephant;
+	background-color:black ;
+	margin:0;
+	color:white;
+	line-height:1.6;
+}
+a{
+	text-decoration: none;
+	color:#ccc;
+}
+#showcase{
+	margin: 0;
+	padding: 0;
+	background: url('guitar.jpg')  no-repeat center/cover ;
+	width: 100%;
+	height: 100vh;
+	position:relative;
+	overflow:hidden;
+	overflow-y: hidden;
+}
+#showcase .show{
+	margin-top:30vh;
+}
+#showcase h1{
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+#showcae h2{
+	font-size: 2rem;
+}
+nav{
+	height:40px;
+	width:100%;
+	background-color:2C2C2C;
+	color:rgb(44,44,44);
+	position:fixed;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	float:left;
+}
+nav a{
+	display:inline-block;
+	width:100px;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	color:BDBDBD;
+}
+nav li:hover{
+	background-color: grey;
+}
+.container{
+	max-width:1100px;
+	text-align: center;
+	margin: 0 auto;
+	padding:0 3rem;
+}
+p{
+	font-size: 1.3rem;
+}
+footer .footertop{
+	display:grid;
+	grid-gap:20px;
+	grid-template-columns: repeat(5, 1fr);
+	padding:2rem;
+	text-align: center;
+	font-size:15px;
+}
+footer .footertop ul{
+	list-style: none;
+}
+footer .footertop li:first-child{
+	font-size: 1.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom:#444 solid 1px;
+	margin-bottom: 1rem;
+}
+footer .footerbottom{
+	background-color: #2C2C2C;
+	padding:1rem;
+	text-align: center;
+}
+
+
+
